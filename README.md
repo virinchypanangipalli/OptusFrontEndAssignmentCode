@@ -1,8 +1,7 @@
-## Preview
-You can check out live preview.
+## Preview - [Live Demo](https://virinchypanangipalli.github.io/OptusFrontEndAssignment/) 
 
 ## Quick Start
-Clone the repo git clone https://github.com/reduction-admin/react-reduction.git
+Clone the repo git clone https://github.com/virinchypanangipalli/OptusFrontEndAssignmentCode.git
 Go to your project folder from your terminal
 Run: npm install or yarn install
 After install, run: npm run start or yarn start
@@ -13,9 +12,15 @@ It will open your browser(http://localhost:3000)
 In the project directory, you can run:
 ### `npm install`
 
+### `npm start`
+
 ### `npm test`
 
-### `npm run build`
+To run in production mode:
+
+### npm run build:prod && npm run start:prod
+
+
 
 
 ### `yarn start`
