@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+## Preview
+You can check out live preview.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick Start
+Clone the repo git clone https://github.com/reduction-admin/react-reduction.git
+Go to your project folder from your terminal
+Run: npm install or yarn install
+After install, run: npm run start or yarn start
+It will open your browser(http://localhost:3000)
 
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+
+### `npm test`
+
+### `npm run build`
+
 
 ### `yarn start`
 
