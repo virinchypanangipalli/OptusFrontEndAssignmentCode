@@ -1,10 +1,27 @@
-# Getting Started with Create React App
+## Preview - [Live Demo](https://virinchypanangipalli.github.io/OptusFrontEndAssignment/) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Quick Start
+Clone the repo git clone https://github.com/virinchypanangipalli/OptusFrontEndAssignmentCode.git
+Go to your project folder from your terminal
+Run: npm install or yarn install
+After install, run: npm run start or yarn start
+It will open your browser(http://localhost:3000)
 
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm install`
+
+### `npm start`
+
+### `npm test`
+
+To run in production mode:
+
+### npm run build:prod && npm run start:prod
+
+
+
 
 ### `yarn start`
 
