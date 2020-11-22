@@ -31,7 +31,7 @@ ul {
 select {
   height: 32px;
 }
-
+/* CSS property for progress bar transition and animation */
 .progress-done {
   border-radius: 5px;
   display: flex;

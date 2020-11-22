@@ -3,9 +3,15 @@ import axios from "axios";
 import Progress from "./Progress";
 
 export const ProgressBar = () => {
+  //Hooks to create Progress Bars, drop down , Buttons. 
+  //Each Hook expects two arguments . First is the variable , second is the event to change value of the variable. 
   const [bars, setbars] = useState([]);
-  const [buttons, setbuttons] = useState([]);
   const [selectedBar, setselectedBar] = useState(0);
+  const [buttons, setbuttons] = useState([]);
+  const [maxlimit, setMaxLimit] = useState(100);
+  
+  
+  //This Hook triggers after the component is loaded and generates the progrss bars from API
   useEffect(() => {
     getbars();
   }, []);
@@ -20,14 +26,20 @@ export const ProgressBar = () => {
       .then((res) => {
         let bars = [];
         res.data.bars.forEach((bar) => {
-          let barObj = { bar, background: "lightblue", color: "black" };
+          let barObj = { bar:bar, background: "lightblue", color: "black" };
           if (typeof bar === "number") {
             bars.push(barObj);
           }
         });
-
+      if(bars){
         setbars(bars);
+      }
+      if(res.data.buttons){
         setbuttons(res.data.buttons);
+      }
+      if(res.data.limit){
+        setMaxLimit(res.data.limit);
+      }
       })
       .catch((error) => {
         alert(error);
@@ -36,7 +48,7 @@ export const ProgressBar = () => {
   const handleBtnClick = (val) => {
     let newBar = { ...bars[selectedBar] };
     newBar.bar = newBar.bar + val;
-    if (newBar.bar >= 100) {
+    if (newBar.bar >= maxlimit) {
       newBar.background = "red";
       newBar.color = "white";
     } else {
