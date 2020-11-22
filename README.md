@@ -6,12 +6,13 @@
 ![Screenshots](docs/4.png?raw=true '4')
 ![Screenshots](docs/5.png?raw=true '5')
 
-## Quick Start
-Clone the repo git clone https://github.com/virinchypanangipalli/OptusFrontEndAssignmentCode.git
-Go to your project folder from your terminal
-Run: npm install or yarn install
-After install, run: npm run start or yarn start
-It will open your browser(http://localhost:3000)
+## How To Start
+
+1.  Clone the repo `git clone https://github.com/virinchypanangipalli/OptusFrontEndAssignmentCode.git`
+2.  Go to your project folder from your terminal
+3.  Run: `npm install` or `yarn install`
+4.  After install, run: `npm run start` or `yarn start`
+5.  It will open your browser(http://localhost:3000)
 
 ## Available Scripts
 
