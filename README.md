@@ -34,13 +34,13 @@ To run in production mode:
 ## Browser Support
 This responsive Web Application was tested and supported for below browsers and devices.
 
-Chrome 86+
-Safari 13.2+ 
-Microsoft Edge 14+
+Chrome 86 +
+Safari 13.2 + 
+Microsoft Edge 14 +
 
 ## Device Support
 Android11x +  
-IOS 11x +
+iOS 11x +
 
 ### `yarn start`
 
