@@ -27,8 +27,16 @@ To run in production mode:
 
 ### npm run build:prod && npm run start:prod
 
+## Browser Support
+This responsive Web Application was tested and supported for below browsers and devices.
 
+Chrome 86+
+Safari 13.2+ 
+Microsoft Edge 14+
 
+## Device Support
+Android11x +  
+IOS 11x +
 
 ### `yarn start`
 
