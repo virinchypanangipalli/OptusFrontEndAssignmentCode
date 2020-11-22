@@ -1,5 +1,11 @@
 ## Preview - [Live Demo](https://virinchypanangipalli.github.io/OptusFrontEndAssignment/) 
 
+![Screenshots](docs/1.png?raw=true '1')
+![Screenshots](docs/2.png?raw=true '2')
+![Screenshots](docs/3.png?raw=true '3')
+![Screenshots](docs/4.png?raw=true '4')
+![Screenshots](docs/5.png?raw=true '5')
+
 ## Quick Start
 Clone the repo git clone https://github.com/virinchypanangipalli/OptusFrontEndAssignmentCode.git
 Go to your project folder from your terminal
