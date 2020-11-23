@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  <div
+    className="container"
+  >
+    <h3
+      className="text-center"
+      data-testid="heading"
+    >
+      Progress Bars Demo
+    </h3>
+    <div
+      className="row bars"
+    >
+      <div
+        className="col-sm"
+      />
+      <div
+        className="col-sm"
+      >
+        <div>
+          Loading....
+        </div>
+        <div
+          className="row buttons"
+        >
+          <ul>
+            <li />
+          </ul>
+        </div>
+      </div>
+      <div
+        className="col"
+      />
+    </div>
+  </div>,
+]
+`;

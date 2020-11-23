@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+Array [
+  <div
+    className="progress"
+  >
+    <div
+      className="progress-done"
+      style={
+        Object {
+          "background": "lightblue",
+          "opacity": 1,
+          "width": "0%",
+        }
+      }
+    >
+      <span
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+      >
+        0
+        %
+      </span>
+    </div>
+  </div>,
+]
+`;
